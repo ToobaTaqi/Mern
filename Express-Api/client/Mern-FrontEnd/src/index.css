@@ -1,0 +1,147 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+body {
+  color: #f4efe5;
+
+  margin: 0;
+  padding: 0;
+  /* background-image: url("https://www.adorama.com/alc/wp-content/uploads/2023/05/fahmi-fakhrudin-nzyzAUsbV0M-unsplash-825x465.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-color: #654321;
+  /* background-color: #110f0f41; */
+}
+p {
+  font-size: 20px;
+  margin: auto;
+  padding-top: 7px;
+  color: #654321;
+}
+.bigbox {
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+  padding-inline: 30px;
+}
+.box {
+  background-color: #e6c9ba;
+  color: #654321;
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+  padding-inline: 30px;
+}
+.butn {
+  background-color: transparent;
+  color: #e6c9ba;
+  border: 1px solid #e6c9ba;
+  border-radius: 5px;
+}
+.butn:hover {
+  background-color: #e6c9ba;
+  color: #654321;
+  border: 1px solid #e6c9ba;
+}
+
+.modall .modal-content {
+  backdrop-filter: blur(5px);
+  background-color: rgb(230, 201, 186, 0.5);
+  padding: 10px;
+}
+
+.tablecontent {
+  margin-top: 10px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #e6c9ba; 
+  border-radius: 10px;
+}
+
+.tbl th {
+  background-color: transparent; 
+  color: #e6c9ba;
+  padding: 10px; 
+}
+.tbl td {
+  background-color: transparent;
+  color: #e6c9ba;
+  padding: 10px; 
+}
+.logn{
+  border: 1px solid #e6c9ba;
+  padding: 30px;
+  border-radius: 10px;
+}
